@@ -1,9 +1,9 @@
-CREATE DATABASE sistema_simples;
+CREATE DATABASE sistema_simples2;
 
-USE sistema_simples;
+USE sistema_simples2;
 
 CREATE TABLE users (
-    id TNT AUTO_INCREMENT PRIMARY KEY,
+    id INT AUTO_INCREMENT PRIMARY KEY,
     username VARCHAR(255) NOT NULL,
     password VARCHAR(255) NOT NULL
 );
